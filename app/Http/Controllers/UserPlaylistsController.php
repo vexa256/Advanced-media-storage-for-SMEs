@@ -26,6 +26,8 @@ class UserPlaylistsController extends BaseController
      * @var App\User
      */
     private $user;
+    
+    private $advanced;
 
     /**
      * PlaylistController constructor.
